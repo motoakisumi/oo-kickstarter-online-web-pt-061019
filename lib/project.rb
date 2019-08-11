@@ -9,6 +9,5 @@ class Project
 
   def add_backer(object)
     @backers << object
-  end
-
+    object.back_project(self)
 end
