@@ -10,4 +10,5 @@ class Project
   def add_backer(object)
     @backers << object
     object.back_project(self)
+  end
 end
