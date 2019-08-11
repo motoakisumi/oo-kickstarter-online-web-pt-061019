@@ -9,6 +9,7 @@ class Backer
 
   def back_project(object)
     @backed_projects << object
+    object.add_backer(self)
   end
 
 end
