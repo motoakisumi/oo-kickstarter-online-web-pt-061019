@@ -9,7 +9,6 @@ class Backer
 
   def back_project(object)
     object
-
   end
 
 end
